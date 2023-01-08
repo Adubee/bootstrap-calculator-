@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="../CodeTrain/css/bootstrap.css">
+    <style>
+        .calculator-container{
+            width: 40rem;
+            height: 24rem;
+            font-size: 30px;
+            font-weight: 600;
+        }
+        .calculator-row{
+            height: 4rem;
+        }
+        .last-cell{
+            background-color: #f5923d !important;
+        }
+        .cell{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            border: solid grey 0.1pt;
+            background-color: #e0e0e0;
+            border-width: 0.1mm;
+        }
+        .temp h4{
+            color: white !important;
+            font-size: 50px !important;
+            margin-left: 38rem;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container calculator-container">
+        <div class="temp row calculator-row" style="background-color: #848695;">
+            <h4>0</h4>
+        </div>
+
+        <div class="row calculator-row">
+            <div class="col-md-3 cell">AC</div>
+            <div class="col-md-3 cell">+/-</div>
+            <div class="col-md-3 cell">%</div>
+            <div class="col-md-3 cell last-cell">/</div>
+        </div>
+        <div class="row calculator-row">
+            <div class="col-md-3 cell">7</div>
+            <div class="col-md-3 cell">8</div>
+            <div class="col-md-3 cell">9</div>
+            <div class="col-md-3 cell last-cell">x</div>
+        </div>
+        <div class="row calculator-row">
+            <div class="col-md-3 cell">4</div>
+            <div class="col-md-3 cell">5</div>
+            <div class="col-md-3 cell">6</div>
+            <div class="col-md-3 cell last-cell">-</div>
+        </div>
+        <div class="row calculator-row">
+            <div class="col-md-3 cell">1</div>
+            <div class="col-md-3 cell">2</div>
+            <div class="col-md-3 cell">3</div>
+            <div class="col-md-3 cell last-cell">+</div>
+        </div>
+
+        <div class="row calculator-row">
+            <div class="col-md-6 cell">0</div>
+            <div class="col-md-3 cell">.</div>
+            <div class="col-md-3 cell last-cell">=</div>
+        </div>
+    </div>
+</body>
+</html>
